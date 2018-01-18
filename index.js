@@ -1,6 +1,6 @@
 
 function iterativeLog(arr) {
-  arr.forEach((item, element) => {
+  arr.forEach((item, element, arr) => {
     console.log(`${item}: ${element}`);
   });
 }
