@@ -4,3 +4,7 @@ function iterativeLog(items) {
     console.log(`${item}: ${element}`);
   });
 }
+
+function iterate(callback) {
+  var elements = ['one', 'two', 'three', 'four'];
+}
