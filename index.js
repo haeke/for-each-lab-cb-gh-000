@@ -7,4 +7,9 @@ function iterativeLog(items) {
 
 function iterate(callback) {
   var elements = ['one', 'two', 'three', 'four'];
+  elements.forEach(element => {
+    callback(element);
+  });
+  
+  return elements;
 }
